@@ -7,10 +7,11 @@ export default function Header() {
       <img src={logo} alt="A canvas" />
       <h1>ReactArt</h1>
       {/* Inline styles */}
-      <p style={{
+      {/* <p style={{
         color: "red",
         textAlign: "left" // or 'text-align': "left"
-      }}>A community of artists and art-lovers.
+      }}>A community of artists and art-lovers. */}
+      <p>A community of artists and art-lovers.
       </p>
     </header>
   );
