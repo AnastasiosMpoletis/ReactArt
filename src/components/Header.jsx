@@ -1,5 +1,5 @@
 import logo from '../assets/logo.png';
-import './Header.css';
+import classes from './Header.module.css';
 
 export default function Header() {
   return (
@@ -11,8 +11,8 @@ export default function Header() {
         color: "red",
         textAlign: "left" // or 'text-align': "left"
       }}>A community of artists and art-lovers. */}
-      <p>A community of artists and art-lovers.
-      </p>
+      {/* <p className={true ? classes.paragraph : undefined}>A community of artists and art-lovers.</p> */}
+      <p className={classes.paragraph}>A community of artists and art-lovers.</p>
     </header>
   );
 }
