@@ -20,6 +20,7 @@ export default function Header() {
         text-center 
         uppercase 
         text-amber-800
+        font-display
       '>ReactArt</h1>
       {/* Inline styles */}
       {/* <p style={{
@@ -27,7 +28,7 @@ export default function Header() {
         textAlign: "left" // or 'text-align': "left"
       }}>A community of artists and art-lovers. */}
       {/* <p className={true ? classes.paragraph : undefined}>A community of artists and art-lovers.</p> */}
-      <p>A community of artists and art-lovers.</p>
+      <p className='text-stone-500'>A community of artists and art-lovers.</p>
     </header>
   );
 }
